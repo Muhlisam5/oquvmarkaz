@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4CAF50;
+  color: black; /*  */
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background: #333;
+  display: flex; /* Flexboxdan foydalanish */
+  justify-content: space-around; /* Linklarni teng taqsimlash */
+}
+
+nav a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: rgb(0, 0, 0);
+}
+
+section {
+  padding: 20px;
+  margin-bottom: 40px; /* Footer bilan to'qnashmaslik uchun margin qo'shdim */
+}
+
+footer {
+  background-color: #ddd;
+  color: #333;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 10; /* Footerni boshqa kontentdan ustun qilish */
+}
